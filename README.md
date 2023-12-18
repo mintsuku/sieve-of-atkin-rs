@@ -15,5 +15,7 @@ The Sieve of Atkin is an optimized algorithm used to find all prime numbers up t
 ## Usage
 Simply clone this repo and execute `cargo run` to run the program. You'll see all the prime numbers in the given array (located in `main.rs`). The code is well documented for those who wish to understand what it does and how each part works.
 
+Though the code goes off of the Sieve Of Atkins algorithm. I decided to use an array rather than some arbitrary integer limit to fit my use case. But you can easily modify the code to use a number limit. 
+
 ## Contributing
 If you find anything that I might have done incorrectly (which I shouldn't have), feel free to make a pull request with changes.
